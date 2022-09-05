@@ -44,37 +44,37 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-size: 19px;
 }
-.odisha:hover {
+.state1:hover {
   border-color: rgb(255, 149, 149);
   background-color: rgb(236, 179, 179);
   color: black;
   transition: 0.6s;
 }
-.odisha:focus {
+.state1:focus {
   border-color: rgb(255, 108, 108);
   background-color: rgb(255, 75, 75);
   color: white;
   transition: 0.6s;
 }
-.mumbai:hover {
+.state2:hover {
   border-color: rgb(200, 203, 255);
   background-color: rgb(212, 204, 255);
   color: black;
   transition: 0.6s;
 }
-.mumbai:focus {
+.state2:focus {
   border-color: rgb(72, 79, 182);
   background-color: rgb(88, 59, 250);
   color: white;
   transition: 0.6s;
 }
-.karnataka:hover {
+.state3:hover {
   border-color: rgb(173, 243, 202);
   background-color: rgb(215, 255, 239);
   color: black;
   transition: 0.6s;
 }
-.karnataka:focus {
+.state3:focus {
   border-color: rgb(21, 104, 55);
   background-color: rgb(40, 155, 97);
   color: white;
@@ -102,8 +102,17 @@ body {
 }
 
 .footer {
-  background-color: black;
-  color: white;
+  color: gray;
   padding: 1rem;
   font-family: "Cormorant Garamond", serif;
+}
+.footer a {
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+}
+.footer a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+  transition: 0.5s;
 }
