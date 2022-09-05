@@ -103,25 +103,25 @@ export default function App() {
         </div>
       </header>
       <div className="info-heading">
-        <h2>Click any button to see the tourist spots in that state.</h2>
+        <h2>Click any state button to see the tourist spots in that state.</h2>
       </div>
       <div className="title-container">
         <button
-          className="title-button odisha"
+          className="title-button state1"
           name="Odisha"
           onClick={showTouristPlaces}
         >
           Odisha
         </button>
         <button
-          className="title-button mumbai"
+          className="title-button state2"
           name="Mumbai"
           onClick={showTouristPlaces}
         >
           Mumbai
         </button>
         <button
-          className="title-button karnataka"
+          className="title-button state3"
           name="Karnataka"
           onClick={showTouristPlaces}
         >
@@ -137,7 +137,7 @@ export default function App() {
           </li>
         ))}
       </ul>
-      <footer className="footer">Made by Pratik using React JS</footer>
+      <footer className="footer">Made by <a href = "https://pratik-dash-portfolio.netlify.app/">Pratik</a> using React JS</footer>
     </div>
   );
 }
