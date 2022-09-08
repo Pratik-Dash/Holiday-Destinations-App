@@ -161,7 +161,7 @@ export default function App() {
       <hr></hr>
       <ul className="places">
         {Object.values(touristSpots[state]).map((place) => (
-          <li className="place">
+          <li className="place" key = {place.name}>
             <img
               className="place-Image"
               src={place.imageUrl}
@@ -175,7 +175,7 @@ export default function App() {
     <footer className="footer">
         Made by <a href="https://pratik-dash-portfolio.netlify.app/">Pratik</a>{" "}
         using React JS
-        <ul class="social-links">
+        <ul className="social-links">
           <li>
             <a href="https://twitter.com/Prateek24675372" target="_blank">
               <ion-icon name="logo-twitter"></ion-icon>
