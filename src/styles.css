@@ -82,12 +82,14 @@ body {
 }
 .places {
   list-style-type: none;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
 }
 .place {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
   border: 2px solid;
   margin: 0.5rem;
@@ -101,6 +103,10 @@ body {
   color: rgb(5, 5, 5);
   cursor: pointer;
   font-family: "Cormorant Garamond", serif;
+}
+.place-Image {
+  width: 70%;
+  height: 60%;
 }
 
 .footer {
